@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgray;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url("background_img.jpg") no-repeat center fixed;
+}
+
+img{
+    align-content: center;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgray; 
+    text-align: center;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 75vh;
+}
+
+.nav-list{
+    list-style: none;
+    font-family: fantasy;
+    color: mediumorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list:hover,
+.nav-list:focus{
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+}
+
+.opening-text{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* BODY */
+
+.headings{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: darkslateblue;
+    padding: 8%;
+    height: 10vh;
+    line-height: 0;
+}
+
+.headings h1{
+    opacity: 0.3;
+    text-decoration: underline;
+}
+
+.details{
+    margin-left : 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}
+
+
+/* ABOUT */
+
+.about_image{
+    margin-left: 33%;
+    margin-bottom: 10px;
+}
+
+/* EXPERIENCE */
+
+.experience_image{
+    width: 10%;
+    margin-left: 47%; 
+    margin-bottom: 10px;
+}
+
+/* PROJECT */
+.project_image{
+    width: 50%;
+    margin-left : 37%;
+    margin-right : 37%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact_image{
+    width : 10%;
+    float: left;
+    margin-left: 40%;
+}
+
+.contact_details{
+    font-size: 8px;
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 5%;
+    padding-top: 1.5%;
+}
+
